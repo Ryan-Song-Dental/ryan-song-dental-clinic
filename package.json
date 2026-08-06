@@ -1,0 +1,7 @@
+{
+  "name": "ryan-song-dental-clinic",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}
