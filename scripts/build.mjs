@@ -10,6 +10,7 @@ await mkdir(resolve(dist, "client", "assets"), { recursive: true });
 await mkdir(resolve(dist, "server"), { recursive: true });
 await cp(resolve(root, "index.html"), resolve(dist, "client", "index.html"));
 await cp(resolve(root, "assets"), resolve(dist, "client", "assets"), { recursive: true });
+await cp(resolve(root, "images"), resolve(dist, "client", "images"), { recursive: true });
 await cp(resolve(root, "server", "index.js"), resolve(dist, "server", "index.js"));
 
 console.log("Sites build completed.");
